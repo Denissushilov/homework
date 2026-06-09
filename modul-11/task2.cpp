@@ -29,6 +29,10 @@ int main()
 
 bool valid_email(const std::string email)
 {
+    int dg;
+    if(!find_sign(email, '@', dg) || dg >= 65 || !dg)
+        return false;
+    //поделить substr(email, dg); и далее проверять обе части по отдельности так так валидации для них различаюся    
     return true;
 }
 
@@ -36,13 +40,14 @@ bool find_sign(const std::string str, const char ch, int& pos)
 {
     int counter{0};
     for(char wr_ch : str) {
+        counter++;
         if(wr_ch == ch) {
             pos = counter;
             return true;
         }
-        counter++;
+        
     }
    
-    pos = -1;
+    
     return false;
 }
