@@ -22,9 +22,8 @@ int main()
     cout << "Input your email address: ";
     cin >> email;
  
-    int r;
-
-    cout << MyLib::find_sign(email, '@', r) << " " << r;
+  
+    
     //cout << (valid_email(email) ? "Yes" : "No");
   
 
@@ -36,7 +35,7 @@ bool valid_email(const std::string email)
     int dg;
     if(!MyLib::find_sign(email, '@', dg))
         return false;
-    //поделить substr(email, dg); и далее проверять обе части по отдельности так так валидации для них различаюся    
+       
     return true;
 }
 
