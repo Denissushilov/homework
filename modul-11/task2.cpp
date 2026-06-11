@@ -5,12 +5,12 @@
 #include <iostream>
 #include <string>
 
-#include "mylibrary.hpp"
-
 using std::cout;
 using std::cin;
 using std::endl;
 
+bool find_sign(const std::string& str, const char ch, int& pos, size_t start=0);
+std::string sub(const std::string& str, unsigned start, unsigned end);
 bool valid_email(const std::string& email);
 bool check_part(std::string& part, bool is_local);
 
@@ -53,7 +53,7 @@ bool check_part(std::string& part, bool is_local)
         if(is_local) {
             int dum_pos;
 
-            if(MyLib::find_sign(specs_syms, ch, dum_pos)) continue;
+            if(find_sign(specs_syms, ch, dum_pos)) continue;
         }
 
         return false;
@@ -66,13 +66,13 @@ bool check_part(std::string& part, bool is_local)
 bool valid_email(const std::string& email)
 {
     int at_pos;
-    if(!MyLib::find_sign(email, '@', at_pos) || !at_pos) return false;
+    if(find_sign(email, '@', at_pos) || !at_pos) return false;
     int second_pos;
 
-    if(MyLib::find_sign(email, '@', second_pos, at_pos+1)) return false;
+    if(find_sign(email, '@', second_pos, at_pos+1)) return false;
 
-    std::string local = MyLib::sub(email, 0, at_pos);
-    std::string domen = MyLib::sub(email, at_pos+1, email.size());
+    std::string local = sub(email, 0, at_pos);
+    std::string domen = sub(email, at_pos+1, email.size());
 
     
     if(!check_part(local, true) || !check_part(domen, false)) return false;
@@ -81,4 +81,40 @@ bool valid_email(const std::string& email)
     return true;
 }
 
+bool find_sign(const std::string& str, const char ch, int& pos, size_t start)
+{
+    size_t len = str.size();
+    if(start >= len) {
+        pos = -1;
+        return false;
+    }
+    
+    for(size_t i = start; i < len; ++i) {
+       
+        if(str[i] == ch) {
+            pos = static_cast<int>(i);
+            return true;
+        }
+        
+    }
+   
+    pos = -1;
+    return false;
+}
 
+std::string sub(const std::string& str, unsigned start, unsigned end)
+{
+    size_t len = str.size();
+    
+    if(start >= end)
+        return "";
+
+    
+    end = (end > len ? len : end); 
+    
+    std::string result(end - start, ' ');
+    for(size_t i = 0; start < end; ++start, ++i)
+        result[i] = str[start];
+    
+    return result;    
+}
