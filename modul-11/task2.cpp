@@ -66,7 +66,7 @@ bool check_part(std::string& part, bool is_local)
 bool valid_email(const std::string& email)
 {
     int at_pos;
-    if(find_sign(email, '@', at_pos) || !at_pos) return false;
+    if(!find_sign(email, '@', at_pos) || !at_pos) return false;
     int second_pos;
 
     if(find_sign(email, '@', second_pos, at_pos+1)) return false;
