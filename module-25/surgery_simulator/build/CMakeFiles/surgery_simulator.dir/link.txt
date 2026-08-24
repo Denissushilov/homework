@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\surgery_simulator.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\surgery_simulator.dir/objects.a @CMakeFiles\surgery_simulator.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\surgery_simulator.dir/objects.a -Wl,--no-whole-archive -o surgery_simulator.exe -Wl,--out-implib,libsurgery_simulator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\surgery_simulator.dir\linkLibs.rsp

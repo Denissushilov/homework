@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/surgery_simulator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\surgery_simulator.dir\\includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\surgery_simulator.dir\\src\\main.cpp.obj -c C:\\surgery_simulator\\src\\main.cpp",
+  "file": "C:/surgery_simulator/src/main.cpp",
+  "output": "CMakeFiles/surgery_simulator.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/surgery_simulator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\surgery_simulator.dir\\includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\surgery_simulator.dir\\src\\surgery.cpp.obj -c C:\\surgery_simulator\\src\\surgery.cpp",
+  "file": "C:/surgery_simulator/src/surgery.cpp",
+  "output": "CMakeFiles/surgery_simulator.dir/src/surgery.cpp.obj"
+}
+]
