@@ -1,5 +1,5 @@
-#include "kbd.h"
-#include "ram.h"
+#include "../include/kbd.h"
+#include "../include/ram.h"
 #include <iostream>
 
 void input()

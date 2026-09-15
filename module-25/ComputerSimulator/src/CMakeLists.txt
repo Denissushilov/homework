@@ -7,4 +7,4 @@ add_executable(ComputerSimulator
     kbd.cpp
 )
 
-target_include_directories(ComputerSimulator PRIVATE C:/HomeWork/ComputerSimulator/include)
+target_include_directories(ComputerSimulator PRIVATE ComputerSimulator/include)

@@ -1,0 +1,5 @@
+C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/CMakeFiles/edit_cache.dir
+C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src/CMakeFiles/ComputerSimulator.dir
+C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src/CMakeFiles/edit_cache.dir
+C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src/CMakeFiles/rebuild_cache.dir

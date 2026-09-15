@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\ComputerSimulator.dir\\includes_CXX.rsp -g -o CMakeFiles\\ComputerSimulator.dir\\main.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Project\\homework\\module-25\\ComputerSimulator\\src\\main.cpp",
+  "file": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/src/main.cpp",
+  "output": "src/CMakeFiles/ComputerSimulator.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\ComputerSimulator.dir\\includes_CXX.rsp -g -o CMakeFiles\\ComputerSimulator.dir\\ram.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Project\\homework\\module-25\\ComputerSimulator\\src\\ram.cpp",
+  "file": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/src/ram.cpp",
+  "output": "src/CMakeFiles/ComputerSimulator.dir/ram.cpp.obj"
+},
+{
+  "directory": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\ComputerSimulator.dir\\includes_CXX.rsp -g -o CMakeFiles\\ComputerSimulator.dir\\cpu.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Project\\homework\\module-25\\ComputerSimulator\\src\\cpu.cpp",
+  "file": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/src/cpu.cpp",
+  "output": "src/CMakeFiles/ComputerSimulator.dir/cpu.cpp.obj"
+},
+{
+  "directory": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\ComputerSimulator.dir\\includes_CXX.rsp -g -o CMakeFiles\\ComputerSimulator.dir\\disk.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Project\\homework\\module-25\\ComputerSimulator\\src\\disk.cpp",
+  "file": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/src/disk.cpp",
+  "output": "src/CMakeFiles/ComputerSimulator.dir/disk.cpp.obj"
+},
+{
+  "directory": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\ComputerSimulator.dir\\includes_CXX.rsp -g -o CMakeFiles\\ComputerSimulator.dir\\gpu.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Project\\homework\\module-25\\ComputerSimulator\\src\\gpu.cpp",
+  "file": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/src/gpu.cpp",
+  "output": "src/CMakeFiles/ComputerSimulator.dir/gpu.cpp.obj"
+},
+{
+  "directory": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\ComputerSimulator.dir\\includes_CXX.rsp -g -o CMakeFiles\\ComputerSimulator.dir\\kbd.cpp.obj -c C:\\Users\\Пользователь\\Desktop\\Project\\homework\\module-25\\ComputerSimulator\\src\\kbd.cpp",
+  "file": "C:/Users/Пользователь/Desktop/Project/homework/module-25/ComputerSimulator/src/kbd.cpp",
+  "output": "src/CMakeFiles/ComputerSimulator.dir/kbd.cpp.obj"
+}
+]
