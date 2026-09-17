@@ -1,0 +1,8 @@
+add_executable(phone_simulator
+    main.cpp
+    contact.cpp
+    address_book.cpp
+    phone.cpp
+)
+
+target_include_directories(phone_simulator PRIVATE phone_simulator/include)
